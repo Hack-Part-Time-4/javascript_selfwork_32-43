@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        //32
+        
+        let f = [];
+        f[0] = 0;
+        f[1] = 1;
+        for (var i = 2; i < 10; i++) {
+        f[i] = f[i - 2] + f[i - 1];
+        }
+        console.log(f);  
+
+        //33
+        const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+        let numero=[]
+        for (let i = 0; i < numeros.length; i++) {
+            if (numeros[i]%2 === 0) {
+                numero.push(numeros[i])          
+            }
+        }
+        console.log(numero);
+
+        //34
+        const dias = ['lunes', 'martes', 'miercoles', 'jueves', 'viernes', 'sabado', 'domingo']       
+        for (let i = 0; i < dias.length; i++) {
+            let letra = dias[i].charAt(0)
+            if (letra == "m") {
+                console.log(dias[i]);                
+            }            
+        }
+
+
+
+
+        
+
+
+
+
+
+
+
+
+       
+
+
+
+
+
+        
+
+                
+        
+        
+
+      
+    </script>    
+</body>
+</html>
